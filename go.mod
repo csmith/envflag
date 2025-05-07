@@ -1,4 +1,4 @@
-module github.com/csmith/envflag
+module github.com/csmith/envflag/v2
 
 go 1.17
 

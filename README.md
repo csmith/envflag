@@ -22,7 +22,7 @@ package main
 import (
 	"flag"
 
-	"github.com/csmith/envflag"
+	"github.com/csmith/envflag/v2"
 )
 
 var (

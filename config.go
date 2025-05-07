@@ -76,5 +76,5 @@ func configFor(opts []Option) *config {
 // defaultMapper maps flag names to environment variable names by uppercasing them and replacing dashes with
 // underscores.
 func defaultMapper(flagName string) string {
-	return strings.ReplaceAll(strings.ToUpper(flagName), "-", "_")
+	return strings.ReplaceAll(strings.ReplaceAll(strings.ToUpper(flagName), "-", "_"), ".", "_")
 }
