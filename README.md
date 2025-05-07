@@ -1,6 +1,6 @@
 # Yet another `envflag` library
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/csmith/envflag)](https://pkg.go.dev/github.com/csmith/envflag)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/csmith/envflag)](https://pkg.go.dev/github.com/csmith/envflag/v2)
 
 This is a simple library that allows that enables reading the value of flags from environment variables.
 
